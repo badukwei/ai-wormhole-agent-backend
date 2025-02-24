@@ -25,7 +25,7 @@ router.get("/search", async (req, res) => {
 				module: "token",
 				action: "tokenInfo",
 				contractAddress: token,
-				apikey: etherscanApiKey,
+				apiKey: etherscanApiKey,
 			},
 		});
 		console.log("response:", response);
